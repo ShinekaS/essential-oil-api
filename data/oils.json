@@ -1,0 +1,51 @@
+[
+    {
+        "id": "1",
+        "name": "Lavender",
+        "usage_methods": [
+            "Aromatherapy",
+            "Topical application",
+            "Inhalation",
+            "Baths"
+        ],
+        "description": "Lavender essential oil is known for its calming and relaxing properties. It is commonly used to help reduce stress and anxiety, promote restful sleep, and soothe skin irritations."
+    },
+    {
+        "id": "2",
+        "name": "Peppermint",
+        "usage_methods": [
+            "Aromatherapy",
+            "Topical application",
+            "Inhalation"
+        ],
+        "description": "Peppermint essential oil is invigorating and energizing. It can be used to help alleviate headaches, relieve muscle tension, and promote healthy digestion."
+    },
+    {
+        "id": "3",
+        "name": "Tea Tree",
+        "usage_methods": [
+            "Topical application",
+            "Inhalation"
+        ],
+        "description": "Tea tree essential oil has powerful antimicrobial properties and is commonly used to help treat skin conditions such as acne, eczema, and fungal infections."
+    },
+    {
+        "id": "4",
+        "name": "Eucalyptus",
+        "usage_methods": [
+            "Aromatherapy",
+            "Topical application",
+            "Inhalation"
+        ],
+        "description": "Eucalyptus essential oil is refreshing and revitalizing. It is often used to help clear congestion, promote respiratory health, and relieve muscle soreness."
+    },
+    {
+        "id": "5",
+        "name": "Frankincense",
+        "usage_methods": [
+            "Aromatherapy",
+            "Topical application"
+        ],
+        "description": "Frankincense essential oil is known for its grounding and calming properties. It is commonly used to help reduce stress and promote relaxation, as well as support healthy skin."
+    }
+]
