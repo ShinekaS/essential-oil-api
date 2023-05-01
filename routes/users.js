@@ -2,12 +2,12 @@ let express = require('express');
 let router = express.Router();
 const fs = require('fs');
 
-//establishes a connection to the isers json db
+//establishes a connection to the users json db
 const users_file = './data/users.json'
 
 
 /* GET users listing. */
-router.get('/',(req, res, next) => {
+router.get('/', (req, res, next) => {
 
   fs.readFile(users_file, 'utf-8', (err, data) => {
     if (err) {
@@ -15,23 +15,23 @@ router.get('/',(req, res, next) => {
       res.status(500).send('There was a promblem reading the file')
       return;
     }
-   res.json(JSON.parse(data));
+    res.json(JSON.parse(data));
   })
 });
 
 //GET a single user
 router.get('/:id', (req, res,) => {
-  fs.readFile(users_file, 'utf-8', (err, data)=> {
+  fs.readFile(users_file, 'utf-8', (err, data) => {
     if (err) {
       console.error(err);
       res.status(500).send('There was a promblem reading the file')
       return;
     }
-//this is to search and locate user by user ID.
-const users = JSON.parse(data)
-const user = users.find(user => user.id === req.params.id)
-  console.log(user);
-  console.log(req.params);
+    //this is to search and locate user by user ID.
+    const users = JSON.parse(data)
+    const user = users.find(user => user.id === req.params.id)
+    console.log(user);
+    console.log(req.params);
     res.json(user);
   })
 });
@@ -39,13 +39,13 @@ const user = users.find(user => user.id === req.params.id)
 //POST a new user
 router.post('/', (req, res) => {
   fs.readFile(users_file, 'utf-8', (err, data) => {
-    if (err){
+    if (err) {
       console.error(err);
       res.status(500).send('There was a promblem reading the file')
       return;
     }
-    //put the sata in an array so we can push to it (JSON from is slightly diff.
-    const users =JSON.parse(data)
+    //put the data in an array so we can push to it (JSON from is slightly diff.
+    const users = JSON.parse(data)
     const newUser = {
       id: (users_file.length + 1).toString(),
       first_name: req.body.name,
@@ -55,16 +55,16 @@ router.post('/', (req, res) => {
     };
 
   });
-    users.push(newUser);
-    fs.writeFile(users_file, JSON.stringify(users), err => {
-      if (err) {
-        console.error(err);
-        res.status(500).send('There was a promblem reading the file')
-        return;
-      }
-      res.json(newUser);
-    })
-  });
+  users.push(newUser);
+  fs.writeFile(users_file, JSON.stringify(users), err => {
+    if (err) {
+      console.error(err);
+      res.status(500).send('There was a promblem reading the file')
+      return;
+    }
+    res.json(newUser);
+  })
+});
 
 
 

@@ -1,51 +1,50 @@
 [
     {
-        "id": "1",
-        "name": "Lavender",
-        "usage_methods": [
-            "Aromatherapy",
-            "Topical application",
-            "Inhalation",
-            "Baths"
-        ],
-        "description": "Lavender essential oil is known for its calming and relaxing properties. It is commonly used to help reduce stress and anxiety, promote restful sleep, and soothe skin irritations."
+      "id": "1",
+      "name": "Lavender",
+      "usage_methods": ["Diffusion", "Topical", "Inhalation"],
+      "botanical_name": "Lavandula angustifolia",
+      "description": "Lavender oil is extracted from the flowers of the lavender plant through steam distillation. It has a sweet, floral, and herbaceous aroma.",
+      "benefits": ["Calming and relaxing", "Promotes restful sleep", "Soothes skin irritation"]
     },
     {
-        "id": "2",
-        "name": "Peppermint",
-        "usage_methods": [
-            "Aromatherapy",
-            "Topical application",
-            "Inhalation"
-        ],
-        "description": "Peppermint essential oil is invigorating and energizing. It can be used to help alleviate headaches, relieve muscle tension, and promote healthy digestion."
+      "id": "2",
+      "name": "Peppermint",
+      "usage_methods": ["Diffusion", "Topical", "Inhalation"],
+      "botanical_name": "Mentha x piperita",
+      "description": "Peppermint oil is extracted from the leaves of the peppermint plant through steam distillation. It has a minty and refreshing aroma.",
+      "benefits": ["Invigorating and energizing", "Eases headaches and nausea", "Relieves muscle soreness"]
     },
     {
-        "id": "3",
-        "name": "Tea Tree",
-        "usage_methods": [
-            "Topical application",
-            "Inhalation"
-        ],
-        "description": "Tea tree essential oil has powerful antimicrobial properties and is commonly used to help treat skin conditions such as acne, eczema, and fungal infections."
+      "id": "3",
+      "name": "Tea Tree",
+      "usage_methods": ["Topical", "Aromatic"],
+      "botanical_name": "Melaleuca alternifolia",
+      "description": "Tea tree oil is extracted from the leaves of the tea tree plant through steam distillation. It has a medicinal and earthy aroma.",
+      "benefits": ["Antibacterial and antifungal", "Supports healthy skin", "Promotes respiratory health"]
     },
     {
-        "id": "4",
-        "name": "Eucalyptus",
-        "usage_methods": [
-            "Aromatherapy",
-            "Topical application",
-            "Inhalation"
-        ],
-        "description": "Eucalyptus essential oil is refreshing and revitalizing. It is often used to help clear congestion, promote respiratory health, and relieve muscle soreness."
+      "id": "4",
+      "name": "Eucalyptus",
+      "usage_methods": ["Diffusion", "Topical", "Inhalation"],
+      "botanical_name": "Eucalyptus globulus",
+      "description": "Eucalyptus oil is extracted from the leaves of the eucalyptus tree through steam distillation. It has a fresh and camphorous aroma.",
+      "benefits": ["Clears the airways", "Soothes sore muscles and joints", "Supports immune system"]
     },
     {
-        "id": "5",
-        "name": "Frankincense",
-        "usage_methods": [
-            "Aromatherapy",
-            "Topical application"
-        ],
-        "description": "Frankincense essential oil is known for its grounding and calming properties. It is commonly used to help reduce stress and promote relaxation, as well as support healthy skin."
+      "id": "5",
+      "name": "Rosemary",
+      "usage_methods": ["Diffusion", "Topical", "Inhalation"],
+      "botanical_name": "Rosmarinus officinalis",
+      "description": "Rosemary oil is extracted from the leaves of the rosemary plant through steam distillation. It has a woody and herbaceous aroma.",
+      "benefits": ["Enhances memory and concentration", "Soothes sore muscles and joints", "Supports respiratory health"]
+    },
+    {
+      "id": "6",
+      "name": "Lemon",
+      "usage_methods": ["Diffusion", "Topical", "Inhalation"],
+      "botanical_name": "Citrus limon",
+      "description": "Lemon oil is extracted from the peel of the lemon fruit through cold expression. It has a fresh and citrusy aroma.",
+      "benefits": ["Uplifting and energizing", "Cleansing and purifying", "Supports respiratory health"]
     }
 ]
